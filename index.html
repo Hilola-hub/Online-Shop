@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Magical World of Sweets</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="container nav-inner">
+
+        <a href="#home" class="logo">
+            <div class="logo-star">✦</div>
+
+            <div class="logo-text">
+                <span>The Magical World</span>
+                <small>of Sweets</small>
+            </div>
+        </a>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#shop">Our Sweets</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="cart-btn" id="cartBtn">
+            🛒
+            <span id="cartCount">0</span>
+        </button>
+
+        <button class="mobile-menu" id="mobileMenu">☰</button>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-sparkle sparkle1">✦</div>
+    <div class="hero-sparkle sparkle2">♡</div>
+    <div class="hero-sparkle sparkle3">✧</div>
+
+    <div class="container hero-grid">
+
+        <div class="hero-content">
+
+            <div class="eyebrow">
+                ✦ WELCOME TO OUR SWEET WORLD ✦
+            </div>
+
+            <h1>
+                Happiness
+                <span>tastes</span>
+                magical.
+            </h1>
+
+            <p>
+                Discover a dreamy collection of cakes, cupcakes,
+                chocolates and delightful treats, carefully created
+                to make every moment a little sweeter.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#shop" class="btn-primary">
+                    Explore Our Sweets
+                    <span>→</span>
+                </a>
+
+                <a href="#about" class="btn-secondary">
+                    Our Story
+                </a>
+
+            </div>
+
+            <div class="hero-stats">
+
+                <div>
+                    <strong>15+</strong>
+                    <span>Sweet treats</span>
+                </div>
+
+                <div>
+                    <strong>♡</strong>
+                    <span>Made with love</span>
+                </div>
+
+                <div>
+                    <strong>100%</strong>
+                    <span>Sweet moments</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-visual">
+
+            <div class="pink-circle"></div>
+
+            <div class="hero-card">
+
+                <img src="images/strawberry_cake.png"
+                     alt="Strawberry Cake">
+
+                <div class="hero-badge">
+                    <span>♡</span>
+                    <div>
+                        <strong>Made with love</strong>
+                        <small>especially for you</small>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="floating-heart">♥</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= INTRO ================= -->
+
+<section class="intro">
+
+    <div class="container intro-inner">
+
+        <div class="intro-line"></div>
+
+        <p>
+            Every celebration deserves something sweet.
+            Every ordinary day deserves a little magic.
+        </p>
+
+        <div class="intro-line"></div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SHOP ================= -->
+
+<section class="shop section" id="shop">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <div>
+                <span class="eyebrow">OUR SWEET COLLECTION</span>
+
+                <h2>
+                    Pick your little
+                    <em>piece of happiness</em>
+                </h2>
+            </div>
+
+            <p>
+                Explore our delicious collection and find
+                something special for yourself or someone you love.
+            </p>
+
+        </div>
+
+
+        <!-- SEARCH -->
+
+        <div class="shop-controls">
+
+            <div class="search-box">
+                <span>⌕</span>
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search sweets..."
+                >
+            </div>
+
+            <div class="categories">
+
+                <button class="category active"
+                        data-category="all">
+                    All
+                </button>
+
+                <button class="category"
+                        data-category="cakes">
+                    Cakes
+                </button>
+
+                <button class="category"
+                        data-category="cupcakes">
+                    Cupcakes
+                </button>
+
+                <button class="category"
+                        data-category="chocolate">
+                    Chocolate
+                </button>
+
+                <button class="category"
+                        data-category="cookies">
+                    Cookies
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCTS -->
+
+        <div class="products-grid" id="productsGrid">
+
+
+            <!-- 1 -->
+
+            <article class="product-card"
+                     data-category="cakes"
+                     data-name="Strawberry Dream Cake">
+
+                <div class="product-image">
+
+                    <img src="images/strawberry_cake.png"
+                         alt="Strawberry Dream Cake">
+
+                    <span class="tag">Popular</span>
+
+                    <button class="heart">♡</button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">CAKES</span>
+
+                    <h3>Strawberry Dream Cake</h3>
+
+                    <p>
+                        Soft sponge cake with fresh strawberries
+                        and creamy frosting.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>$24</strong>
+
+                        <button class="add-cart"
+                                data-name="Strawberry Dream Cake"
+                                data-price="24">
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 2 -->
+
+            <article class="product-card"
+                     data-category="cakes"
+                     data-name="Red Velvet Cake">
+
+                <div class="product-image">
+
+                    <img src="images/velvet_caker.png"
+                         alt="Red Velvet Cake">
+
+                    <span class="tag new">New</span>
+
+                    <button class="heart">♡</button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">CAKES</span>
+
+                    <h3>Red Velvet Cake</h3>
+
+                    <p>
+                        A soft red velvet cake with smooth
+                        cream cheese frosting.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>$28</strong>
+
+                        <button class="add-cart"
+                                data-name="Red Velvet Cake"
+                                data-price="28">
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 3 -->
+
+            <article class="product-card"
+                     data-category="cakes"
+                     data-name="Chocolate Fudge Cake">
+
+                <div class="product-image">
+
+                    <img src="images/choco_cake.png"
+                         alt="Chocolate Fudge Cake">
+
+                    <button class="heart">♡</button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">CAKES</span>
+
+                    <h3>Chocolate Fudge Cake</h3>
+
+                    <p>
+                        Rich chocolate cake covered with
+                        silky chocolate fudge.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>$26</strong>
+
+                        <button class="add-cart"
+                                data-name="Chocolate Fudge Cake"
+                                data-price="26">
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 4 -->
+
+            <article class="product-card"
+                     data-category="cupcakes"
+                     data-name="Vanilla Cloud Cupcake">
+
+                <div class="product-image">
+
+                    <img src="images/vanilla_cupcake.png"
+                         alt="Vanilla Cloud Cupcake">
+
+                    <button class="heart">♡</button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">CUPCAKES</span>
+
+                    <h3>Vanilla Cloud Cupcake</h3>
+
+                    <p>
+                        Fluffy vanilla cupcake topped with
+                        silky cream.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>$5.50</strong>
+
+                        <button class="add-cart"
+                                data-name="Vanilla Cloud Cupcake"
+                                data-price="5.5">
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 5 -->
+
+            <article class="product-card"
+                     data-category="cupcakes"
+                     data-name="Strawberry Cupcake">
+
+                <div class="product-image">
+
+                    <img src="images/strawberry_cupcake.png"
+                         alt="Strawberry Cupcake">
+
+                    <button class="heart">♡</button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">CUPCAKES</span>
+
+                    <h3>Strawberry Cupcake</h3>
+
+                    <p>
+                        Delicious strawberry cupcake with
+                        a creamy topping.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>$6</strong>
+
+                        <button class="add-cart"
+                                data-name="Strawberry Cupcake"
+                                data-price="6">
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 6 -->
+
+            <article class="product-card"
+                     data-category="cupcakes"
+                     data-name="Chocolate Cupcake">
+
+                <div class="product-image">
+
+                    <img src="images/choco_cupcake.png"
+                         alt="Chocolate Cupcake">
+
+                    <button class="heart">♡</button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">CUPCAKES</span>
+
+                    <h3>Chocolate Cupcake</h3>
+
+                    <p>
+                        Moist chocolate cupcake with rich
+                        chocolate cream.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>$6.50</strong>
+
+                        <button class="add-cart"
+                                data-name="Chocolate Cupcake"
+                                data-price="6.5">
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 7 -->
+
+            <article class="product-card"
+                     data-category="chocolate"
+                     data-name="Magic Chocolate Box">
+
+                <div class="product-image">
+
+                    <img src="images/choco_box.png"
+                         alt="Magic Chocolate Box">
+
+                    <span class="tag">Best Seller</span>
+
+                    <button class="heart">♡</button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">CHOCOLATE</span>
+
+                    <h3>Magic Chocolate Box</h3>
+
+                    <p>
+                        A beautiful box of delicious handmade
+                        chocolates.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>$18</strong>
+
+                        <button class="add-cart"
+                                data-name="Magic Chocolate Box"
+                                data-price="18">
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 8 -->
+
+            <article class="product-card"
+                     data-category="chocolate"
+                     data-name="Milk Chocolate Truffles">
+
+                <div class="product-image">
+
+                    <img src="images/choco_truffles.png"
+                         alt="Milk Chocolate Truffles">
+
+                    <button class="heart">♡</button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">CHOCOLATE</span>
+
+                    <h3>Milk Chocolate Truffles</h3>
+
+                    <p>
+                        Smooth chocolate truffles with
+                        a creamy center.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>$15</strong>
+
+                        <button class="add-cart"
+                                data-name="Milk Chocolate Truffles"
+                                data-price="15">
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 9 -->
+
+            <article class="product-card"
+                     data-category="chocolate"
+                     data-name="Chocolate Brownie">
+
+                <div class="product-image">
+
+                    <img src="images/brownie.png"
+                         alt="Chocolate Brownie">
+
+                    <button class="heart">♡</button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">CHOCOLATE</span>
+
+                    <h3>Chocolate Brownie</h3>
+
+                    <p>
+                        Rich and soft chocolate brownie
+                        with a delicious center.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>$7</strong>
+
+                        <button class="add-cart"
+                                data-name="Chocolate Brownie"
+                                data-price="7">
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 10 -->
+
+            <article class="product-card"
+                     data-category="cookies"
+                     data-name="Sweet Dream Cookies">
+
+                <div class="product-image">
+
+                    <img src="images/cookies.png"
+                         alt="Sweet Dream Cookies">
+
+                    <button class="heart">♡</button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">COOKIES</span>
+
+                    <h3>Sweet Dream Cookies</h3>
+
+                    <p>
+                        Golden buttery cookies baked
+                        until perfectly delicious.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>$8</strong>
+
+                        <button class="add-cart"
+                                data-name="Sweet Dream Cookies"
+                                data-price="8">
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 11 -->
+
+            <article class="product-card"
+                     data-category="cookies"
+                     data-name="Chocolate Chip Cookies">
+
+                <div class="product-image">
+
+                    <img src="images/choco_cookies.png"
+                         alt="Chocolate Chip Cookies">
+
+                    <button class="heart">♡</button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">COOKIES</span>
+
+                    <h3>Chocolate Chip Cookies</h3>
+
+                    <p>
+                        Classic cookies filled with
+                        delicious chocolate chips.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>$9</strong>
+
+                        <button class="add-cart"
+                                data-name="Chocolate Chip Cookies"
+                                data-price="9">
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 12 -->
+
+            <article class="product-card"
+                     data-category="cookies"
+                     data-name="French Macarons">
+
+                <div class="product-image">
+
+                    <img src="images/macarons.png"
+                         alt="French Macarons">
+
+                    <span class="tag">Favorite</span>
+
+                    <button class="heart">♡</button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">COOKIES</span>
+
+                    <h3>French Macarons</h3>
+
+                    <p>
+                        Colorful macarons with delicate
+                        creamy centers.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>$14</strong>
+
+                        <button class="add-cart"
+                                data-name="French Macarons"
+                                data-price="14">
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 13 -->
+
+            <article class="product-card"
+                     data-category="cupcakes"
+                     data-name="Glazed Donuts">
+
+                <div class="product-image">
+
+                    <img src="images/donuts.png"
+                         alt="Glazed Donuts">
+
+                    <button class="heart">♡</button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">CUPCAKES</span>
+
+                    <h3>Glazed Donuts</h3>
+
+                    <p>
+                        Soft fluffy donuts covered with
+                        a sweet glossy glaze.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>$10</strong>
+
+                        <button class="add-cart"
+                                data-name="Glazed Donuts"
+                                data-price="10">
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 14 -->
+
+            <article class="product-card"
+                     data-category="cakes"
+                     data-name="Strawberry Cheesecake">
+
+                <div class="product-image">
+
+                    <img src="images/cheesecake.png"
+                         alt="Strawberry Cheesecake">
+
+                    <button class="heart">♡</button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">CAKES</span>
+
+                    <h3>Strawberry Cheesecake</h3>
+
+                    <p>
+                        Creamy cheesecake topped with
+                        fresh strawberries.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>$22</strong>
+
+                        <button class="add-cart"
+                                data-name="Strawberry Cheesecake"
+                                data-price="22">
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 15 -->
+
+            <article class="product-card"
+                     data-category="cakes"
+                     data-name="Caramel Pudding">
+
+                <div class="product-image">
+
+                    <img src="images/pudding.png"
+                         alt="Caramel Pudding">
+
+                    <span class="tag">Sweet</span>
+
+                    <button class="heart">♡</button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">CAKES</span>
+
+                    <h3>Caramel Pudding</h3>
+
+                    <p>
+                        Silky smooth pudding finished with
+                        delicious caramel sauce.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>$9.50</strong>
+
+                        <button class="add-cart"
+                                data-name="Caramel Pudding"
+                                data-price="9.5">
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <div class="no-results" id="noResults">
+            <div>🧁</div>
+            <h3>No sweets found</h3>
+            <p>Try another search or category.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about section" id="about">
+
+    <div class="container about-grid">
+
+        <div class="about-gallery">
+
+            <div class="about-main-image">
+                <img src="images/macarons.png"
+                     alt="Beautiful macarons">
+            </div>
+
+            <div class="about-small-image">
+                <img src="images/donuts.png"
+                     alt="Delicious donuts">
+            </div>
+
+            <div class="about-circle">
+                <span>✦</span>
+                <strong>Sweet</strong>
+                <small>moments</small>
+            </div>
+
+        </div>
+
+
+        <div class="about-content">
+
+            <span class="eyebrow">
+                A LITTLE ABOUT US
+            </span>
+
+            <h2>
+                Welcome to a world where
+                <em>sweet dreams</em>
+                come true.
+            </h2>
+
+            <p>
+                <strong>The Magical World of Sweets</strong>
+                was created from a simple idea:
+                happiness can be found in the smallest moments.
+            </p>
+
+            <p>
+                We believe that desserts are not simply something
+                delicious to eat. They are part of birthdays,
+                celebrations, family gatherings, surprises,
+                friendships and unforgettable memories.
+            </p>
+
+            <p>
+                Every sweet in our collection is selected with
+                care, because we want every visit to our little
+                magical world to bring a smile to your face.
+            </p>
+
+            <div class="signature">
+                <span>Made with</span>
+                <b>♡</b>
+                <span>by Hilola</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= WHY US ================= -->
+
+<section class="why section">
+
+    <div class="container">
+
+        <div class="center-heading">
+
+            <span class="eyebrow">
+                THE MAGIC BEHIND OUR SWEETS
+            </span>
+
+            <h2>
+                Why people love
+                <em>our sweet world</em>
+            </h2>
+
+        </div>
+
+
+        <div class="benefits">
+
+            <div class="benefit">
+
+                <div class="benefit-icon">♡</div>
+
+                <h3>Made with Love</h3>
+
+                <p>
+                    Every little detail is chosen
+                    with care and affection.
+                </p>
+
+            </div>
+
+
+            <div class="benefit">
+
+                <div class="benefit-icon">✦</div>
+
+                <h3>Beautifully Fresh</h3>
+
+                <p>
+                    We believe wonderful sweets
+                    begin with wonderful ingredients.
+                </p>
+
+            </div>
+
+
+            <div class="benefit">
+
+                <div class="benefit-icon">♢</div>
+
+                <h3>Perfect for Moments</h3>
+
+                <p>
+                    Our treats make celebrations
+                    even more memorable.
+                </p>
+
+            </div>
+
+
+            <div class="benefit">
+
+                <div class="benefit-icon">☼</div>
+
+                <h3>A Touch of Magic</h3>
+
+                <p>
+                    Because every ordinary day
+                    deserves something special.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= QUOTE ================= -->
+
+<section class="quote-section">
+
+    <div class="container quote-box">
+
+        <span class="quote-mark">“</span>
+
+        <h2>
+            Life is short.
+            <br>
+            Make it a little sweeter.
+        </h2>
+
+        <p>— The Magical World of Sweets</p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter">
+
+    <div class="container newsletter-inner">
+
+        <div>
+
+            <span class="eyebrow">
+                STAY IN OUR SWEET WORLD
+            </span>
+
+            <h2>
+                Sweet news & little surprises
+            </h2>
+
+            <p>
+                Join our magical world and discover
+                new treats and special moments.
+            </p>
+
+        </div>
+
+        <form id="newsletterForm">
+
+            <input
+                type="email"
+                placeholder="Your email address"
+                required
+            >
+
+            <button type="submit">
+                Join Us ✦
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer id="contact">
+
+    <div class="container footer-grid">
+
+        <div class="footer-about">
+
+            <a href="#home" class="logo footer-logo">
+
+                <div class="logo-star">✦</div>
+
+                <div class="logo-text">
+                    <span>The Magical World</span>
+                    <small>of Sweets</small>
+                </div>
+
+            </a>
+
+            <p>
+                Creating little moments of happiness,
+                one sweet bite at a time.
+            </p>
+
+            <div class="by-hilola">
+                by <strong>Hilola</strong>
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Explore</h3>
+
+            <a href="#home">Home</a>
+            <a href="#shop">Our Sweets</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Contact</h3>
+
+            <p>📍 Tashkent, Uzbekistan</p>
+            <p>✉ hello@magicalsweets.com</p>
+            <p>☎ +998 90 000 00 00</p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Follow us</h3>
+
+            <a href="#">Instagram</a>
+            <a href="#">Telegram</a>
+            <a href="#">Pinterest</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        <div class="container copyright-inner">
+
+            <span>
+                © 2026 The Magical World of Sweets
+            </span>
+
+            <span>
+                Made with ♡ by Hilola
+            </span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- ================= CART ================= -->
+
+<div class="cart-overlay" id="cartOverlay">
+
+    <div class="cart">
+
+        <button class="close-cart" id="closeCart">
+            ×
+        </button>
+
+        <span class="eyebrow">
+            YOUR SWEET SELECTION
+        </span>
+
+        <h2>Shopping Cart</h2>
+
+        <div id="cartItems" class="cart-items">
+
+            <div class="empty-cart">
+                <div>🧁</div>
+                <h3>Your cart is empty</h3>
+                <p>Add something delicious!</p>
+            </div>
+
+        </div>
+
+        <div class="cart-total">
+
+            <span>Total</span>
+
+            <strong id="cartTotal">
+                $0.00
+            </strong>
+
+        </div>
+
+        <button class="checkout" id="checkout">
+            Proceed to Checkout →
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- ================= TOAST ================= -->
+
+<div class="toast" id="toast">
+    <span>✓</span>
+    Added to your sweet cart!
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
